@@ -88,8 +88,9 @@ body{
     transition: 0s;
     opacity: 0;
     pointer-events: none;
+    display: block;
 }
-.sidebar ul li .tooltip{
+.sidebar.active ul li .tooltip{
     display: none;
 }
 .sidebar ul li:hover .tooltip{
@@ -119,8 +120,8 @@ body{
     transition: all 0.5 ease;
 }
 .sidebar.active ul li .bx-search{
-    background: #fff;
-    color: #1d1b31;
+    background: #1d1b31;
+    color: #fff;
 }
 .sidebar .bx-search:hover{
     background: #FFF;
